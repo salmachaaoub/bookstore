@@ -1,0 +1,17 @@
+/* BACKUP CSS AVANT REDESIGN SIMPLE - $(date) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700&display=swap');
+:root {
+  --fond: #faf5ff;
+  --fond-carte: #fdfdff;
+  --fond-fonce: #1e1b4b;
+  --texte: #1e293b;
+  --texte-secondaire: #64748b;
+  --primaire: #ec4899;
+  --primaire-hover: #db2777;
+  --accent: #f97316;
+  --danger: #f87171;
+  --bordure: #f3e8ff;
+  --ombre: 0 4px 6px rgba(0,0,0,0.05);
+  --transition: all 0.2s ease;
+}
+

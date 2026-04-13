@@ -1,0 +1,46 @@
+@startuml
+left to right direction
+
+actor ADMIN
+actor BIBLIOTHECAIRE
+actor MEMBRE
+
+rectangle "Système de Gestion de Bibliothèque" {
+
+  ' ===== USERS =====
+  ADMIN --> (Gérer les utilisateurs)
+  ADMIN --> (Modifier rôle utilisateur)
+  ADMIN --> (Supprimer utilisateur)
+  ADMIN --> (Activer/Désactiver utilisateur)
+
+  ' ===== LIVRES =====
+  ADMIN --> (Ajouter livre)
+  ADMIN --> (Modifier livre)
+  ADMIN --> (Supprimer livre)
+
+  BIBLIOTHECAIRE --> (Ajouter livre)
+  BIBLIOTHECAIRE --> (Modifier livre)
+  BIBLIOTHECAIRE --> (Supprimer livre)
+
+  MEMBRE --> (Consulter les livres)
+  MEMBRE --> (Rechercher livre)
+
+  ' ===== CATEGORIES =====
+  ADMIN --> (Gérer catégories)
+  BIBLIOTHECAIRE --> (Gérer catégories)
+  MEMBRE --> (Consulter catégories)
+
+  ' ===== EMPRUNTS =====
+  ADMIN --> (Consulter tous les emprunts)
+  BIBLIOTHECAIRE --> (Gérer emprunts)
+  BIBLIOTHECAIRE --> (Valider retour livre)
+
+  MEMBRE --> (Consulter mes emprunts)
+
+  ' ===== PROFIL =====
+  ADMIN --> (Gérer profil)
+  BIBLIOTHECAIRE --> (Gérer profil)
+  MEMBRE --> (Gérer profil)
+}
+
+@enduml

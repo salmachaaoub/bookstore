@@ -1,0 +1,73 @@
+@startuml
+
+' =========================
+' ENUMS
+' =========================
+enum Role {
+  ADMIN
+  BIBLIOTHECAIRE
+  MEMBRE
+}
+
+enum StatutEmprunt {
+  EMPRUNTE
+  RETOURNE
+  EN_RETARD
+}
+
+' =========================
+' UTILISATEUR
+' =========================
+class Utilisateur {
+  +id: ObjectId
+  +nom: String
+  +email: String
+  +motDePasse: String
+  +role: Role
+  +dateCreation: Date
+}
+
+' =========================
+' LIVRE
+' =========================
+class Livre {
+  +id: ObjectId
+  +titre: String
+  +auteur: String
+  +isbn: String
+  +quantite: Number
+  +exemplairesDisponibles: Number
+  +categorieId: ObjectId
+  +dateCreation: Date
+}
+
+' =========================
+' CATEGORIE
+' =========================
+class Categorie {
+  +id: ObjectId
+  +nom: String
+  +description: String
+}
+
+' =========================
+' EMPRUNT
+' =========================
+class Emprunt {
+  +id: ObjectId
+  +utilisateurId: ObjectId
+  +livreId: ObjectId
+  +dateEmprunt: Date
+  +dateRetour: Date
+  +statut: StatutEmprunt
+}
+
+' =========================
+' RELATIONS
+' =========================
+
+Utilisateur "1" --> "0..*" Emprunt : effectue
+Livre "1" --> "0..*" Emprunt : concerne
+Categorie "1" --> "0..*" Livre : contient
+
+@enduml
