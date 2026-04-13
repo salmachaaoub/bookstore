@@ -376,35 +376,35 @@ README racine maintenu pour donner une vue globale du projet complet et du flux 
 ---
 
 ### 🏠 Accueil
-![Accueil](screenshots/accueil.png)
-> Page principale avec slogan, description et boutons d'action.
+![Accueil](Frontend/screenshots/accueil.png)
+> Page principale de la plateforme. Elle présente le slogan du projet, une description rapide du service, ainsi qu'une carte récapitulative des fonctionnalités disponibles (catalogue, profil, emprunts, assistance). Deux boutons d'appel à l'action permettent de commencer ou de se connecter.
 
 ---
 
 ### 📚 Livres
-![Livres](screenshots/livres.png)
-> Catalogue complet des ouvrages disponibles.
+![Livres](Frontend/screenshots/livres.png)
+> Page de catalogue. Elle affiche la collection complète des ouvrages disponibles, avec une accroche invitant les membres à explorer les catégories (informatique, littérature, sciences). Le contenu se charge dynamiquement.
 
 ---
 
 ### ℹ️ À propos
-![À propos](screenshots/apropos.png)
-> Mission, histoire et valeurs de la bibliothèque.
+![À propos](Frontend/screenshots/apropos.png)
+> Page de présentation de la bibliothèque. On y retrouve la mission de l'établissement, son histoire, ainsi que ses valeurs fondamentales (accessibilité, modernité, esprit communautaire).
 
 ---
 
 ### 🛟 Support
-![Support](screenshots/support.png)
-> FAQ, contact par e-mail et horaires d'accueil.
+![Support](Frontend/screenshots/support.png)
+> Page d'aide et d'assistance. Elle regroupe une FAQ (inscription, nombre d'emprunts, etc.), les coordonnées du bureau d'aide par e-mail, ainsi que les horaires d'accueil physique.
 
 ---
 
 ### 🔐 Connexion
-![Connexion](screenshots/connexion.png)
-> Formulaire de connexion à l'espace membre.
+![Connexion](Frontend/screenshots/connexion.png)
+> Formulaire de connexion à l'espace membre. L'utilisateur saisit son adresse e-mail et son mot de passe pour accéder à la plateforme. Un lien permet de créer un compte si nécessaire.
 
 ---
 
 ### 📝 Inscription
-![Inscription](screenshots/inscription.png)
-> Formulaire de création de compte.
+![Inscription](Frontend/screenshots/inscription.png)
+> Formulaire de création de compte. L'utilisateur renseigne son nom complet, son adresse e-mail et un mot de passe (minimum 6 caractères) pour rejoindre la plateforme.
