@@ -370,3 +370,41 @@ Triggers:
 
 README racine maintenu pour donner une vue globale du projet complet et du flux de communication Frontend <-> Backend <-> MongoDB.
 # bookstore
+
+## 📸 Aperçu des pages
+
+---
+
+### 🏠 Accueil
+![Accueil](screenshots/accueil.png)
+> Page principale avec slogan, description et boutons d'action.
+
+---
+
+### 📚 Livres
+![Livres](screenshots/livres.png)
+> Catalogue complet des ouvrages disponibles.
+
+---
+
+### ℹ️ À propos
+![À propos](screenshots/apropos.png)
+> Mission, histoire et valeurs de la bibliothèque.
+
+---
+
+### 🛟 Support
+![Support](screenshots/support.png)
+> FAQ, contact par e-mail et horaires d'accueil.
+
+---
+
+### 🔐 Connexion
+![Connexion](screenshots/connexion.png)
+> Formulaire de connexion à l'espace membre.
+
+---
+
+### 📝 Inscription
+![Inscription](screenshots/inscription.png)
+> Formulaire de création de compte.
