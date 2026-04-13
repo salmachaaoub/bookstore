@@ -291,3 +291,41 @@ Le `Dockerfile` lance l'app en mode dev Vite sur:
 ---
 
 README aligne avec le code actuel du dossier `Frontend` au 24 mars 2026.
+
+## 📸 Aperçu des pages
+
+---
+
+### 🏠 Accueil
+![Accueil](screenshots/accueil.png)
+> Page principale avec slogan, description et boutons d'action.
+
+---
+
+### 📚 Livres
+![Livres](screenshots/livres.png)
+> Catalogue complet des ouvrages disponibles.
+
+---
+
+### ℹ️ À propos
+![À propos](screenshots/apropos.png)
+> Mission, histoire et valeurs de la bibliothèque.
+
+---
+
+### 🛟 Support
+![Support](screenshots/support.png)
+> FAQ, contact par e-mail et horaires d'accueil.
+
+---
+
+### 🔐 Connexion
+![Connexion](screenshots/connexion.png)
+> Formulaire de connexion à l'espace membre.
+
+---
+
+### 📝 Inscription
+![Inscription](screenshots/inscription.png)
+> Formulaire de création de compte.
