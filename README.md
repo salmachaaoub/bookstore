@@ -1,4 +1,4 @@
-# Cloud Library Management System
+# bookstore
 
 Application web complete de gestion de bibliotheque:
 - Frontend React/Vite
